@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "1111Graphic Designer On The Road"
+title: "Graphic Designer On The Road"
 description: "A graphic designer is a professional within the graphic design and graphic arts industry."
 date: 2020-01-05
 feature_image: images/road.jpg
