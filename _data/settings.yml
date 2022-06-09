@@ -25,8 +25,8 @@ social:
 
 # Customize site text
 pagination:
-  next_page: 'Backline'
-  previous_page: 'Forwards'
+  next_page: 'Forwards'
+  previous_page: 'Backline'
 
 sharing_button_prompt: 'Swing it!'
 
