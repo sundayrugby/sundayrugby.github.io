@@ -12,26 +12,29 @@ Legend               | Tries
 Gerry                 |  26
 Anton                 |  18
 Tony                  |  12
-Greig                 |  11
+Greig                 |  12
+Timmy                 |  10
 Ant                   |  8
+Dino                  |  6
+Yusri                 |  5
 Keith                 |  4
 Graham                |  4
-Dino                  |  4
-Chris                 |  4
-Timmy                 |  3
-Ryan P                |  3
+Chris V               |  4
+Ryan P                |  4
+Gareth                |  4
+Casey                 |  4
+Zunaid                |  3
 Dale                  |  3
-Yusri                 |  2
 Saul                  |  2
 Rikki                 |  2
-Gareth                |  2
 Chris W               |  2
-Casey                 |  2
 Andrew                |  2
-Zunaid                |  1
+Terry                 |  2
+Andrew S              |  2
 Wazza                 |  1
-Terry                 |  1
 JJ                    |  1
 Ferdi                 |  1
 Dylan                 |  1
+Brenden               |  1
+Robin                 |  1
 
