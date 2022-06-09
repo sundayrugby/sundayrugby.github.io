@@ -2,5 +2,5 @@
 layout: category
 title: Games
 category: games
-permalink: /games-posts
+permalink: /game-posts
 ---
