@@ -9,6 +9,8 @@ google-ID: ''
 
 menu:
 - {name: 'Game Posts',       url: 'game-posts'}
+- {name: 'Caps',              url: 'caps'}
+- {name: 'Tries',              url: 'tries'}
 - {name: 'About',              url: 'about'}
 - {name: 'Contact',            url: 'contact'}
 
