@@ -24,7 +24,7 @@ Andrew	              |  3
 JJ	                  |  3
 Timmy	                |  3
 Ryan L	              |  3
-Chris V	              |  3
+Chris V	              |  2
 Zunaid	              |  2
 Dylan	                |  2
 Dino	                |  2
