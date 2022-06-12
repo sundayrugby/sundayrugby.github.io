@@ -4,7 +4,7 @@ title: Caps
 permalink: /caps
 ---
 
-**updated with game 2022-05-29*
+**updated with game 2022-06-12*
 
 
 Legend               | Caps   
