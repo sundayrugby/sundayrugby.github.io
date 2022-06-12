@@ -4,7 +4,7 @@ title: Tries
 permalink: /tries
 ---
 
-**updated with game 2022-05-29*
+**updated with game 2022-06-12*
 
 
 Legend               | Tries               | Percentage               
@@ -35,7 +35,7 @@ Mike L                |  2                   |  100 %
 Chris W               |  2                   |  50 %
 Terry                 |  2                   |  33 %
 Wazza                 |  1                   |  100 %
-Ferdi                 |  1                   |  50 %
 Dylan                 |  1                   |  100 %
+Ferdi                 |  1                   |  50 %
 Brenden               |  1                   |  50 %
 
