@@ -5,7 +5,7 @@ disqus:
 
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
 # google-ID: 'UA-112060364-2'
-google-ID: '318833386'
+google-ID: 'G-73WEC21K1P'
 
 menu:
 - {name: 'Game Posts',       url: 'game-posts'}
