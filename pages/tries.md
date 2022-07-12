@@ -7,6 +7,7 @@ permalink: /tries
 **updated with game 2022-07-10*
 
 <div class="datatable-begin"></div>
+
 Legend               | Tries               | Percentage               
 --------------------- | :------------------: | :------------------:
 Gerry|30|300%
@@ -42,5 +43,6 @@ Terry|2|33%
 Brenden|1|50%
 Dylan|1|100%
 Wazza|1|100%
+
 <div class="datatable-end"></div>
 
