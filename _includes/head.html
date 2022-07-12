@@ -24,4 +24,7 @@
   {% include google-analytics.html %}
   <!-- Use Jekyll SEO plugin -->
   {% seo %}
+  {% if site.data.settings.google-ID and jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
 </head>
