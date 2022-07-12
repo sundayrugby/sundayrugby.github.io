@@ -4,38 +4,41 @@ title: Tries
 permalink: /tries
 ---
 
-**updated with game 2022-06-12*
+**updated with game 2022-07-10*
 
 
 Legend               | Tries               | Percentage               
 --------------------- | :------------------: | :------------------:
-Gerry                 |  30                  |  375 %
-Anton                 |  18                  |  225 %    
-Tony                  |  16                  |  200 %
-Greig                 |  13                  |  144 %
-Timmy                 |  11                  |  220 %
-Yusri                 |  9                   |  300 %
-Ant                   |  8                   |  200 %
-Dino                  |  6                   |  150 %
-Chris V               |  4                   |  200 %
-Casey                 |  4                   |  200 %
-Gareth                |  4                   |  133 %
-Zunaid                |  4                   |  100 %
-Graham                |  4                   |  80 %
-JJ                    |  4                   |  80 %
-Keith                 |  4                   |  66 %
-Dale                  |  4                   |  50 %
-Ryan P                |  4                   |  44 %
-Robin                 |  3                   |  150 %
-Andrew                |  3                   |  60 %
-Andrew S              |  2                   |  200 %
-Rikki                 |  2                   |  200 %
-Saul                  |  2                   |  100 %
-Mike L                |  2                   |  100 %
-Chris W               |  2                   |  50 %
-Terry                 |  2                   |  33 %
-Wazza                 |  1                   |  100 %
-Dylan                 |  1                   |  100 %
-Ferdi                 |  1                   |  50 %
-Brenden               |  1                   |  50 %
-
+Gerry|30|300%
+Ant|18|300%
+Anton|18|225%
+Tony|17|170%
+Greig|15|136%
+Timmy|11|220%
+Yusri|9|225%
+Dale|7|70%
+JJ|7|100%
+Dino|6|150%
+Gareth|6|150%
+Casey|5|167%
+Chris V|5|167%
+Ryan P|5|45%
+Andrew M|4|67%
+Graham|4|67%
+Keith|4|67%
+Zunaid|4|100%
+Donovan|3|300%
+Mike L|3|100%
+Rikki|3|150%
+Robin|3|150%
+Andrew S|2|200%
+Chad|2|200%
+Chris W|2|50%
+Ferdi|2|67%
+Nic B|2|200%
+Rich|2|100%
+Saul|2|100%
+Terry|2|33%
+Brenden|1|50%
+Dylan|1|100%
+Wazza|1|100%
