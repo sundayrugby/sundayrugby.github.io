@@ -4,7 +4,7 @@ title: Tries
 permalink: /tries
 ---
 
-**updated with game 2022-07-10*
+**updated with game 2022-07-10.*
 
 <div class="datatable-begin"></div>
 
