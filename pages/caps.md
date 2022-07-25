@@ -4,37 +4,38 @@ title: Caps
 permalink: /caps
 ---
 
-**updated with game 2022-07-17*
+**updated with game 2022-07-24*
 
 
 Legend               | Caps   
 --------------------- | :------------------:
-Greig|12
+Greig|13
+Dale|12
+Gerry|12
 Ryan P|12
-Dale|11
-Gerry|11
-Tony|10
-Anton|8
+Tony|11
+Anton|9
+Andrew M|8
+JJ|8
+Keith|8
 Ryan L|8
-Andrew M|7
-JJ|7
-Keith|7
-Ant|6
-Graham|6
+Ant|7
+Graham|7
 Terry|6
-Timmy|5
-Zunaid|5
+Timmy|6
+Zunaid|6
+Chris V|4
 Chris W|4
 Dino|4
+Ferdi|4
 Gareth|4
 Yusri|4
 Casey|3
-Chris V|3
-Ferdi|3
 Mike L|3
 Saul|3
 Adam|2
 Brenden|2
+Grant R|2
 Patrick|2
 Rich|2
 Rikki|2
@@ -44,7 +45,7 @@ Chad|1
 Donovan|1
 Dylan|1
 Emile|1
-Grant|1
+Grant M|1
 Ian|1
 Juan|1
 Matt|1
