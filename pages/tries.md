@@ -4,7 +4,7 @@ title: Tries
 permalink: /tries
 ---
 
-**updated with game 2022-08-28.*
+**updated with game 2022-10-23.*
 
 
 Legend               | Tries               | Percentage               
