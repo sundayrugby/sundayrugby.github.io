@@ -65,3 +65,44 @@ Lloyd|1|100%
 Nick M|1|20%
 Ryan L|1|10%
 Wazza|1|100%
+
+
+
+
+**Minimum 5 games.*
+
+
+Legend               | Percentage               
+--------------------- | :------------------:
+a1|325%
+b1|282%
+c1|267%
+d1|250%
+e1|243%
+f1|230%
+g1|210%
+h1|200%
+i1|194%
+j1|188%
+Mike L|163%
+Tony|153%
+Brenden|143%
+David|120%
+Chris V|117%
+Greig|113%
+Zunaid|111%
+JJ|108%
+Dale|104%
+Shaka|100%
+Ryan P|83%
+Dylan|83%
+Graham|75%
+Chris W|60%
+Keith|57%
+Ferdi|57%
+Andrew M|43%
+Terry|33%
+Nick M|20%
+Grant R|17%
+Ryan L|10%
+Ian|0%
