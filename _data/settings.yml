@@ -11,6 +11,7 @@ menu:
 - {name: 'Game Posts',       url: 'game-posts'}
 - {name: 'Caps',              url: 'caps'}
 - {name: 'Tries',              url: 'tries'}
+- {name: 'Archive',              url: 'archive'}
 - {name: 'About',              url: 'about'}
 - {name: 'Contact',            url: 'contact'}
 
