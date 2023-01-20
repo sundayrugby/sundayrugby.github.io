@@ -4,9 +4,9 @@ title: Archive
 permalink: /archive
 ---
 
-## 2022
+# 2022
 
-# Caps
+## Caps
 
 Legend               | Caps         
 -------------------- | :------------------:
@@ -78,7 +78,7 @@ Wayne|1
 Wazza|1
 
 
-# Tries
+## Tries
 
 Legend               | Tries               
 -------------------- | :------------------:
