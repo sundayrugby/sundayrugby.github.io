@@ -4,7 +4,7 @@ title: Tries
 permalink: /tries
 ---
 
-**updated with game 2023-01-15.*
+**updated with game 2023-01-15*
 
 
 Legend               | Tries               
