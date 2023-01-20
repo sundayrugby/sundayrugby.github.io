@@ -9,8 +9,8 @@ permalink: /tries
 
 Legend               | Tries               
 -------------------- | :------------------:
+John|6
 Brandan|4
-John|4
 David|2
 Dylan|2
 Lukman|2
@@ -34,7 +34,7 @@ Yusri|1
 Legend               | Percentage               
 -------------------- | :------------------:
 Brandan|400%
-John|200%
+John|300%
 David|200%
 Rich|200%
 Timmy|200%
