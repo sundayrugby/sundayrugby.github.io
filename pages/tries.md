@@ -9,22 +9,25 @@ permalink: /tries
 
 Legend               | Tries               
 -------------------- | :------------------:
-John|6
+John|9
+Rich|6
 Brandan|4
+Andrew M|3
+JJ|3
+Timmy|3
 David|2
 Dylan|2
+Casey|2
+Gareth B|2
+Gerry|2
+Graham|2
 Lukman|2
 Mat W|2
-Rich|2
-Timmy|2
 Tristian|2
-Andrew M|1
 Chad|1
-Casey|1
 Ferdi|1
-Gerry|1
-Graham|1
 Ryan S|1
+Simphiwe|1
 Terry|1
 Yusri|1
 
@@ -35,19 +38,22 @@ Legend               | Percentage
 -------------------- | :------------------:
 Brandan|400%
 John|300%
+Rich|300%
+JJ|300%
 David|200%
-Rich|200%
-Timmy|200%
+Gareth B|200%
 Tristian|200%
-Dylan|100%
-Lukman|100%
+Andrew M|150%
+Timmy|150%
+Casey|100%
 Mat W|100%
 Chad|100%
-Casey|100%
 Ferdi|100%
 Ryan S|100%
 Yusri|100%
-Andrew M|50%
-Gerry|50%
-Graham|50%
+Dylan|67%
+Gerry|67%
+Graham|67%
+Lukman|67%
+Simphiwe|50%
 Terry|50%
