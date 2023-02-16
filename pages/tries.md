@@ -4,30 +4,41 @@ title: Tries
 permalink: /tries
 ---
 
-**updated with game 2023-01-15*
+**updated with game 2023-02-12*
 
 
 Legend               | Tries               
 -------------------- | :------------------:
-John|9
-Rich|6
+John|19
+Rich|13
+Mat W|11
+Tony|7
+Andrew M|6
+Gerry|5
+Timmy|5
 Brandan|4
-Andrew M|3
+Casey|4
+Lukman|4
+Ryan P|4
+Tristian|4
+David|3
+Graham|3
 JJ|3
-Timmy|3
-David|2
+Simphiwe|3
+Storm|3
+Andrew S|2
 Dylan|2
-Casey|2
 Gareth B|2
-Gerry|2
-Graham|2
-Lukman|2
-Mat W|2
-Tristian|2
+Anton G|1
+Blano|1
+Brent|1
 Chad|1
+Dale|1
+Dino|1
 Ferdi|1
+Nick M|1
+Ryan J|1
 Ryan S|1
-Simphiwe|1
 Terry|1
 Yusri|1
 
@@ -36,24 +47,35 @@ Yusri|1
 
 Legend               | Percentage               
 -------------------- | :------------------:
-Brandan|400%
-John|300%
-Rich|300%
-JJ|300%
-David|200%
-Gareth B|200%
+Rich|325%
+John|317%
+Mat W|220%
+Brandan|200%
 Tristian|200%
-Andrew M|150%
-Timmy|150%
-Casey|100%
-Mat W|100%
+Andrew S|200%
+Gareth B|200%
+Tony|175%
+Timmy|167%
+David|150%
+JJ|150%
+Casey|133%
+Gerry|125%
+Andrew M|100%
+Anton G|100%
+Blano|100%
 Chad|100%
-Ferdi|100%
+Dino|100%
 Ryan S|100%
 Yusri|100%
-Dylan|67%
-Gerry|67%
-Graham|67%
-Lukman|67%
-Simphiwe|50%
-Terry|50%
+Lukman|80%
+Ryan P|80%
+Simphiwe|75%
+Graham|60%
+Storm|60%
+Dylan|50%
+Brent|50%
+Ferdi|50%
+Dale|33%
+Ryan J|33%
+Terry|33%
+Nick M|25%
