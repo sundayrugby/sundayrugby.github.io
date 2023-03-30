@@ -30,29 +30,43 @@
   <body>
     <img src="assets/img/dropped.jpeg" alt="Fumbled rugby ball" width="300" height="300">
     <h1>404 - Looks like you fumbled!</h1>
-    <p>Sorry, it looks like the page you were trying to access has been tackled and is currently down for maintenance. Don't worry, we're working on getting it back up on its feet as soon as possible. In the meantime, why not practice your passing skills by throwing this virtual ball around? Just click anywhere on the screen to pass it!</p>
+    <p>Sorry, it looks like the page you were trying to access has been tackled and is currently down for maintenance or you need a HIA as you have the wrong page. Don't worry, we're working on getting it back up on its feet as soon as possible. In the meantime, why not practice your passing skills by throwing this virtual ball around? Just click or touch anywhere on the screen to pass it!</p>
     <div id="rugby-ball"></div>
     <p>Thanks for playing along! If you continue to have trouble, please <a href="mailto:support@yourwebsite.com">contact us</a> and we'll try our best to get you back in the game.</p>
     <script>
       var rugbyBall = document.getElementById('rugby-ball');
       var ballMoved = false;
-      rugbyBall.addEventListener('mousedown', function(event) {
-        var startX = event.clientX;
-        var startY = event.clientY;
+
+      // Mouse events
+      rugbyBall.addEventListener('mousedown', startBallMove);
+      document.addEventListener('mouseup', stopBallMove);
+
+      // Touch events
+      rugbyBall.addEventListener('touchstart', startBallMove);
+      document.addEventListener('touchend', stopBallMove);
+
+      function startBallMove(event) {
+        event.preventDefault();
+        var startX = event.clientX || event.touches[0].clientX;
+        var startY = event.clientY || event.touches[0].clientY;
         var ballX = ballMoved ? parseInt(rugbyBall.style.left) : window.innerWidth / 2;
         var ballY = ballMoved ? parseInt(rugbyBall.style.top) : window.innerHeight / 2;
         var moveBall = function(event) {
-          var deltaX = event.clientX - startX;
-          var deltaY = event.clientY - startY;
+          event.preventDefault();
+          var deltaX = (event.clientX || event.touches[0].clientX) - startX;
+          var deltaY = (event.clientY || event.touches[0].clientY) - startY;
           rugbyBall.style.left = (ballX + deltaX) + 'px';
           rugbyBall.style.top = (ballY + deltaY) + 'px';
           ballMoved = true;
         };
         document.addEventListener('mousemove', moveBall);
-        document.addEventListener('mouseup', function() {
-          document.removeEventListener('mousemove', moveBall);
-        });
-      });
+        document.addEventListener('touchmove', moveBall);
+      }
+
+      function stopBallMove() {
+        document.removeEventListener('mousemove', moveBall);
+        document.removeEventListener('touchmove', moveBall);
+      }
     </script>
   </body>
 </html>
