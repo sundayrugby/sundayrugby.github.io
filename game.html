@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Falling Rocks Game</title>
+	<style>
+		canvas {
+			border: 1px solid black;
+		}
+	</style>
+</head>
+<body>
+	<canvas id="canvas" width="800" height="600"></canvas>
+	<img id="player" src="player_final.png" style="display:none;">
+	<img id="rock" src="rocks_final.png" style="display:none;">
+	<script>
+		// Initialize variables
+		var canvas = document.getElementById("canvas");
+		var ctx = canvas.getContext("2d");
+		var playerImg = document.getElementById("player");
+		var rockImg = document.getElementById("rock");
+		var mousePos = { x: canvas.width / 2, y: canvas.height - playerImg.height };
+		var rocks = [];
+		var score = 0;
+
+		// Create a Rock object
+		function Rock() {
+			this.x = Math.floor(Math.random() * canvas.width);
+			this.y = -20;
+			this.speed = Math.floor(Math.random() * 5) + 1;
+			this.radius = Math.floor(Math.random() * 20) + 10;
+		}
+
+		// Draw the game
+		function draw() {
+			ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+			// Draw the rocks
+			for (var i = 0; i < rocks.length; i++) {
+				ctx.drawImage(rockImg, rocks[i].x - rocks[i].radius, rocks[i].y - rocks[i].radius, rocks[i].radius * 2, rocks[i].radius * 2);
+				rocks[i].y += rocks[i].speed;
+				if (rocks[i].y > canvas.height) {
+					rocks.splice(i, 1);
+					score++;
+				}
+			}
+
+			// Draw the player
+			ctx.drawImage(playerImg, mousePos.x - playerImg.width/2, mousePos.y - playerImg.height);
+
+			// Update the score
+			ctx.font = "20px Arial";
+			ctx.fillStyle = "#000000";
+			ctx.fillText("Score: " + score, 10, 30);
+
+			// Spawn new rocks
+			if (Math.random() < 0.1) {
+				rocks.push(new Rock());
+			}
+
+			// Check for collision
+			for (var i = 0; i < rocks.length; i++) {
+				var dx = rocks[i].x - mousePos.x;
+				var dy = rocks[i].y - mousePos.y;
+				var distance = Math.sqrt(dx * dx + dy * dy);
+				if (distance < rocks[i].radius + playerImg.width/2) {
+					alert("Game over! Your score is " + score);
+					rocks = [];
+					score = 0;
+					mousePos = { x: canvas.width / 2, y: canvas.height - playerImg.height };
+				}
+			}
+
+			// Call the draw function again
+			requestAnimationFrame(draw);
+		}
+
+		// Get the mouse position
+		function getMousePos(canvas, evt) {
+			var rect = canvas.getBoundingClientRect();
+			return {
+				x: evt.clientX - rect.left,
+				y: evt.clientY - rect.top
+			};
+		}
+
+		// Add an event listener to the canvas to track mouse movements
+		canvas.addEventListener("mousemove", function(evt) {
+			mousePos = getMousePos(canvas, evt);
+		});
+
+		// Start the game
+		draw();
+	</script>
+</body>
+</html>
