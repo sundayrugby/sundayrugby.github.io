@@ -4,46 +4,49 @@ title: Caps
 permalink: /caps
 ---
 
-**updated with game 2023-03-26*
+**updated with game 2023-04-02*
 
 
 Legend               | Caps   
 --------------------- | :------------------:
+Gerry|10
+Graham|10
 John|10
-Gerry|9
-Graham|9
+Nick M|10
+Storm|10
+Dale|9
+Greig|9
 Mat W|9
-Nick M|9
-Storm|9
+Rich|9
 Andrew M|8
-Dale|8
-Greig|8
-Rich|8
-Ryan P|7
+Ryan P|8
+Tony|8
 Simphiwe|7
-Tony|7
-Farai|5
+Farai|6
+Anton G|5
+Dylan|5
 Lukman|5
+Mat T|5
 Ryan L|5
-Anton G|4
+Timmy|5
 Casey|4
-Dylan|4
 Ferdi|4
 Keith|4
-Mat T|4
 Terry|4
-Timmy|4
 Banny|3
 Brandan|3
 Brent|3
 Mike L|3
 Ryan J|3
+Saul|3
 Tristian|3
 David|2
 Dino|2
+Ian|2
+Jeremy|2
 JJ|2
+Micheal M|2
 Micheal T|2
-Saul|2
 Shaka|2
 TK|2
 Ant|1
@@ -53,19 +56,19 @@ Andrew S|1
 Blano|1
 Chris V|1
 Chad|1
+Dash|1
 Donovan|1
 Evan|1
 Ferdi's son|1
 Gareth B|1
 Grant R|1
-Ian|1
+Ike|1
 Jason|1
-Jeremy|1
 Matt S|1
-Micheal M|1
 Rolf|1
 Ryan S|1
 Scotty|1
+Shakeel|1
 Tarek|1
 Yusri|1
 Ziad|1
