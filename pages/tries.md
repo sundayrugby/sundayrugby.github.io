@@ -7,9 +7,10 @@ permalink: /tries
 **updated with game 2023-04-02*
 
 ***Need for tries catchup rule - After 10 games have been played*
-* *If all of the top 3 try scorers don't score a try, then all tries scored that day are worth double*. 
+* *If all of the top 3 try scorers don't score a try, then all tries scored that day are worth double*.  
 
-
+  
+<br>
 
 Legend               | Tries               
 -------------------- | :------------------:
