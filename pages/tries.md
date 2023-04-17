@@ -72,34 +72,20 @@ Legend               | Percentage
 Mat W|378%
 Rich|350%
 John|333%
-Donovan|300%
 Timmy|280%
 Gerry|218%
-Andrew S|200%
-Gareth B|200%
 Anton G|171%
 Tony|170%
 Casey|160%
-JJ|150%
-Micheal M|150%
 Lukman|133%
 Dylan|129%
 Andrew M|122%
 Ryan P|110%
 Simphiwe|100%
-Warren K|100%
-Adam B|100%
-Anton V|100%
-Blano|100%
-Chad|100%
-Micheal D|100%
-Ryan S|100%
-Yusri|100%
 Greig|80%
 Graham|50%
 Nick M|50%
 Dale|50%
 Ferdi|50%
-Shaka|50%
 Storm|25%
 Farai|14%
