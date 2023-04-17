@@ -39,6 +39,7 @@ Brandan|3
 Brent|3
 Dash|3
 Dino|3
+Ian|3
 Micheal T|3
 Mike L|3
 Ryan J|3
@@ -46,7 +47,6 @@ Shakeel|3
 Tristian|3
 David|2
 Grant R|2
-Ian|2
 Jeremy|2
 JJ|2
 Micheal M|2
