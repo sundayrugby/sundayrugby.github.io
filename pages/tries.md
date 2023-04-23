@@ -46,7 +46,7 @@ JJ|3
 Micheal M|3
 Storm|3
 Terry|3
-Ant|2
+Ant|3
 Andrew S|2
 Dane|2
 Dino|2
