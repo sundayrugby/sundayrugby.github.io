@@ -4,7 +4,7 @@ title: Tries
 permalink: /tries
 ---
 
-**updated with game 2023-04-16*
+**updated with game 2023-04-23*
 
 ***Need for tries catchup rule - After 10 games have been played*
 * *If all of the top 3 try scorers don't score a try, then all tries scored that day are worth double*.  
@@ -14,23 +14,24 @@ permalink: /tries
 
 Legend               | Tries               
 -------------------- | :------------------:
+Rich|41
 John|40
-Rich|35
 Mat W|34
 Gerry|24
+Anton G|17
 Tony|17
+Ryan P|14
 Timmy|14
-Anton G|12
 Andrew M|11
-Ryan P|11
+Greig|10
 Dylan|9
 Casey|8
-Greig|8
+Graham|8
 Lukman|8
+Nick M|8
+Dale|7
 Simphiwe|7
-Graham|6
-Nick M|6
-Dale|5
+Ryan H|5
 Tristian|5
 Brandan|4
 Micheal T|4
@@ -44,10 +45,15 @@ Jeremy|3
 JJ|3
 Micheal M|3
 Storm|3
+Terry|3
+Ant|2
 Andrew S|2
+Dane|2
 Dino|2
+Edward|2
 Gareth B|2
 Mike L|2
+Ryan L|2
 Warren K|2
 Adam B|1
 Anton V|1
@@ -61,7 +67,6 @@ Ryan S|1
 Saul|1
 Shaka|1
 Shakeel|1
-Terry|1
 Yusri|1
 
 
@@ -70,22 +75,22 @@ Yusri|1
 Legend               | Percentage               
 -------------------- | :------------------:
 Mat W|378%
-Rich|350%
+Rich|373%
 John|333%
 Timmy|280%
 Gerry|218%
-Anton G|171%
+Anton G|213%
 Tony|170%
 Casey|160%
 Lukman|133%
 Dylan|129%
-Andrew M|122%
-Ryan P|110%
+Ryan P|127%
 Simphiwe|100%
-Greig|80%
-Graham|50%
-Nick M|50%
-Dale|50%
-Ferdi|50%
+Greig|91%
+Dale|64%
+Graham|62%
+Nick M|62%
+Terry|60%
+Ryan L|29%
 Storm|25%
 Farai|14%
