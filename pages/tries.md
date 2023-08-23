@@ -4,7 +4,7 @@ title: Tries
 permalink: /tries
 ---
 
-**updated with game 2023-05-21*
+**updated with game 2023-08-13*
 
 ***Need for tries catchup rule - After 10 games have been played*
 * *If all of the top 3 try scorers don't score a try, then all tries scored that day are worth double*.  
@@ -14,98 +14,111 @@ permalink: /tries
 
 Legend               | Tries               
 -------------------- | :------------------:
-John|53
-Mat W|42
-Rich|41
-Anton G|25
-Gerry|24
-Tony|21
-Ryan P|17
-Timmy|16
-Andrew M|13
+John|94
+Mat W|66
+Rich|46
+Timmy|37
+Gerry|34
+Anton G|32
+Tony|30
+Ryan P|26
+Justin|22
+Gevihne|19
+Greig|19
+Lukman|17
+Andrew M|17
+Dale|16
+Graham|12
+Ant|11
+Dylan|11
+Nick M|11
+Brandan|10
+Tristian|10
 Casey|10
-Dale|10
-Dylan|10
-Greig|10
-Lukman|10
-Nick M|10
-Graham|9
-Ferdi|7
+Ferdi|10
+Yusri|7
 Simphiwe|7
-Yusri|6
-Ant|5
-Mike L|5
+Grant R|6
 Ryan H|5
-Tristian|5
-Brandan|4
+Mike L|5
+Tai|4
+JJ|4
 Micheal T|4
-Brent|3
-Dash|3
-David|3
+Terry|4
+Farai|4
+Storm|4
 Donovan|3
-Grant R|3
-Jeremy|3
-JJ|3
-Keith|3
-Micheal M|3
 Ryan M|3
-Storm|3
-Terry|3
+David|3
+Jeremy|3
+Dash|3
+James|3
+Micheal M|3
+Brent|3
+Dawie|3
+Keith|3
 Andrew S|2
-Dane|2
-Dino|2
-Edward|2
 Gareth B|2
-Ryan L|2
+Wakes|2
+Dane|2
 Warren K|2
+Edward|2
+Shakeel|2
+Dino|2
+Ryan L|2
 Adam B|1
+Adam V|1
 Anton V|1
-Banny|1
 Blano|1
 Chad|1
-Farai|1
-James|1
+Gareth F|1
 Micheal D|1
-Ryan J|1
+Rowan|1
 Ryan S|1
-Saul|1
+Chris V|1
+Shane|1
+Banny|1
+Ryan J|1
 Shaka|1
-Shakeel|1
+Saul|1
 
 
 **5 Game Minimum.*
 
-Legend               | Percentage               
--------------------- | :------------------:
-Mat W|382%
-Rich|373%
-John|353%
-Anton G|250%
-Timmy|229%
-Gerry|218%
-Tony|175%
-Casey|167%
-Lukman|143%
-Ryan P|131%
-Andrew M|130%
-Dylan|125%
-Ferdi|100%
-Simphiwe|100%
-Adam B|100%
-Anton V|100%
-Blano|100%
-Chad|100%
-James|100%
-Micheal D|100%
-Ryan S|100%
-Dale|71%
-Greig|71%
-Nick M|63%
-Graham|60%
-Terry|60%
-Keith|50%
-Dino|40%
-Ryan L|29%
-Storm|23%
-Saul|20%
-Farai|14%
+Legend               | Tries | Percentage               
+-------------------- | ------- | :------------------:
+Justin|22|440%
+John|94|392%
+Gevihne|19|380%
+Mat W|66|367%
+Rich|46|354%
+Timmy|37|308%
+Anton G|32|229%
+Gerry|34|227%
+Tony|30|188%
+Lukman|17|170%
+Brandan|10|167%
+Tristian|10|167%
+Ant|11|157%
+Ryan P|26|130%
+Casey|10|125%
+Grant R|6|120%
+Andrew M|17|113%
+Ferdi|10|111%
+Dylan|11|100%
+Simphiwe|7|100%
+Mike L|5|100%
+Greig|19|83%
+Dale|16|76%
+Brent|3|60%
+Graham|12|50%
+Terry|4|50%
+Nick M|11|46%
+Dawie|3|43%
+Farai|4|36%
+Shakeel|2|33%
+Keith|3|30%
+Dino|2|29%
+Ryan L|2|29%
+Saul|1|20%
+Storm|4|19%
