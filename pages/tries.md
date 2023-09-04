@@ -4,7 +4,7 @@ title: Tries
 permalink: /tries
 ---
 
-**updated with game 2023-08-20*
+**updated with game 2023-09-03*
 
 ***Need for tries catchup rule - After 10 games have been played*
 * *If all of the top 3 try scorers don't score a try, then all tries scored that day are worth double*.  
@@ -14,49 +14,50 @@ permalink: /tries
 
 Legend               | Tries               
 -------------------- | :------------------:
-John|94
-Mat W|66
-Timmy|55
+John|96
+Mat W|72
+Timmy|57
 Rich|46
-Gerry|34
+Gerry|35
 Tony|34
 Anton G|32
-Ryan P|26
-Justin|22
-Gevihne|19
+Justin|29
+Ryan P|27
+Gevihne|25
 Greig|19
 Andrew M|17
+Dale|17
 Lukman|17
-Dale|16
 Ferdi|16
+Mopo|16
 Nick M|15
-Mopo|14
+JJ|14
+Casey|13
+Ant|12
 Graham|12
-JJ|12
-Ant|11
 Dylan|11
 Brandan|10
-Casey|10
 Tristian|10
+Mike L|8
 Simphiwe|7
 Yusri|7
 Grant R|6
-Mike L|5
+Dawie|5
 Ryan H|5
+Storm|5
 Farai|4
+Keith|4
 Micheal T|4
-Storm|4
 Tai|4
 Terry|4
 Brent|3
 Dash|3
 David|3
-Dawie|3
 Donovan|3
 James|3
 Jeremy|3
-Keith|3
 Micheal M|3
+Rowan|3
 Ryan M|3
 Andrew S|2
 Dane|2
@@ -76,7 +77,6 @@ Chris V|1
 Chad|1
 Gareth F|1
 Micheal D|1
-Rowan|1
 Ryan J|1
 Ryan S|1
 Saul|1
@@ -88,39 +88,39 @@ Shane|1
 
 Legend               | Tries | Percentage               
 -------------------- | ------- | :------------------:
-Justin|22|440%
-Timmy|55|423%
-John|94|392%
-Gevihne|19|380%
-Mat W|66|367%
+Justin|29|414%
+Timmy|57|407%
+John|96|369%
+Mat W|72|360%
+Gevihne|25|357%
 Rich|46|354%
-JJ|12|240%
-Anton G|32|229%
-Gerry|34|227%
-Tony|34|200%
-Lukman|17|170%
+JJ|14|233%
+Gerry|35|219%
+Anton G|32|213%
+Tony|34|179%
 Brandan|10|167%
 Tristian|10|167%
 Ferdi|16|160%
-Ant|11|157%
-Casey|10|125%
-Ryan P|26|124%
+Lukman|17|155%
+Ant|12|150%
+Casey|13|144%
 Grant R|6|120%
-Andrew M|17|106%
-Dylan|11|100%
+Ryan P|27|117%
+Mike L|8|114%
+Andrew M|17|100%
 Simphiwe|7|100%
-Mike L|5|100%
-Greig|19|79%
-Dale|16|73%
-Nick M|15|60%
+Dylan|11|92%
+Greig|19|76%
+Dale|17|71%
 Brent|3|60%
-Graham|12|50%
+Nick M|15|58%
+Dawie|5|56%
 Terry|4|50%
-Dawie|3|43%
+Graham|12|46%
 Farai|4|36%
-Keith|3|30%
+Keith|4|36%
 Dino|2|29%
 Ryan L|2|29%
-Shakeel|2|29%
+Shakeel|2|25%
+Storm|5|22%
 Saul|1|20%
-Storm|4|19%
