@@ -10,7 +10,6 @@ permalink: /archive
 
 Legend               | Caps         
 -------------------- | :------------------:
-
 Greig|31
 Nick M|31
 Graham|30
@@ -104,8 +103,8 @@ Ziad|1
 
 ## Tries
 
-Legend               | Tries               
--------------------- | :------------------:
+Legend               | Tries      | Percentge               
+-------------------- | :------------------:| :------------------:
 John|114|380%
 Mat W|79|359%
 Gevihne|65|542%
