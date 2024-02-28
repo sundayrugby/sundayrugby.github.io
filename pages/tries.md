@@ -4,7 +4,7 @@ title: Tries
 permalink: /tries
 ---
 
-**updated with game 2024-02-18*
+**updated with game 2024-02-25*
 
 ***Need for tries catchup rule - After 5 games have been played*
 * *If the top try scorer doesn't score a try, then all tries scored that day are worth double*.  
@@ -14,30 +14,32 @@ permalink: /tries
 
 Legend               | Tries               
 -------------------- | :------------------:
-John|33
-Gevihne|19
+John|38
+Gevihne|24
+Justin|20
 Tristan|14
-Justin|11
-Mat W|8
-Timmy|8
+Timmy|12
+Mat W|11
 Casey|7
+Shak|7
+Ferdi|6
 Dawie|5
-Ferdi|5
 Grant|5
 Jason|5
-Shak|5
 Ayub|4
 Dale|4
+Graham|4
 Jake|4
-Graham|3
 Greig|3
+Keith|3
 Peter|3
 Rob|3
 Adam|2
 JJ|2
-Keith|2
 Keyraan|2
+Dash|1
 Dino|1
+Jayz|1
 Leon|1
 Nick|1
 Tony|1
@@ -48,10 +50,15 @@ Warren|1
 
 Legend               | Tries | Percentage               
 -------------------- | ------- | :------------------:
-John|33|550%
+Justin|20|667%
+John|38|543%
+Gevihne|24|480%
+Casey|7|350%
 Tristan|14|280%
-Shak|5|83%
-Graham|3|50%
-Greig|3|50%
-Nick|1|20%
+Timmy|12|200%
+Dawie|5|100%
+Shak|7|100%
+Graham|4|57%
+Greig|3|43%
 Tony|1|20%
+Nick|1|17%
