@@ -7,6 +7,8 @@ permalink: /tries
 **updated with game 2024-03-24*
 
 ***Need for tries catchup rule - After 5 games have been played*
+***Malherbe Rule - A player proved they weigh more than (tries x 3)*
+
 * *If the top try scorer doesn't score a try, then all tries scored that day are worth double*.  
 
 <br> 
@@ -20,6 +22,7 @@ Gevihne|32
 Timmy|25
 Mat W|23
 Tristan|16
+Graham***|12
 Shak|12
 Dash|9
 Ferdi|9
@@ -33,7 +36,6 @@ Greig|6
 Nick|6
 Jason|5
 Ayub|4
-Graham|4
 Jake|4
 Rikki|4
 JJ|3
