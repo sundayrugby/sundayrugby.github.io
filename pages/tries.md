@@ -67,12 +67,12 @@ Tristan|16|267%
 Ferdi|9|180%
 Dash|9|150%
 Dale|8|133%
+Graham***|12|133%
 Shak|12|120%
 Dawie|7|100%
 Nick|6|67%
 Greig|6|60%
 Keith|3|60%
-Graham|4|44%
 Mat T |2|40%
 Tony|1|20%
 Ryan|1|14%
