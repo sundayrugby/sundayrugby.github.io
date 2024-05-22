@@ -12,6 +12,7 @@ permalink: /patrons
  - Rolf Fitschen
  - Dino Driussi
  - Ryan Povey
+ - Greig Thomson
 
 
 R8800
