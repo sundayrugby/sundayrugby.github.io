@@ -7,7 +7,7 @@ permalink: /patrons
  - Tony Galetti
  - Mat Weyer
  - Nicholas Midgley
- - Graham Linderman
+ - Graham Lindemann
  - Ant S
  - Rolf Fitschen
  - Dino Driussi
