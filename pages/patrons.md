@@ -13,6 +13,7 @@ permalink: /patrons
  - Dino Driussi
  - Ryan Povey
  - Greig Thomson
+ - Mat Tyrrell
 
 
-R9400
+R10 000
