@@ -4,7 +4,7 @@ title: Tries
 permalink: /tries
 ---
 
-**updated with game 2024-03-24*
+**updated with game 2024-05-29*
 
 ***Need for tries catchup rule - After 5 games have been played*
 
@@ -17,42 +17,52 @@ permalink: /tries
 
 Legend               | Tries               
 -------------------- | :------------------:
-Justin|52
-John|48
-Gevihne|32
+Justin|94
+John|75
+Mat W|41
+Gevihne|35
 Timmy|25
-Mat W|23
+Shak|21
+Dawie|19
+Ferdi|17
+Greig|16
 Tristan|16
-Graham***|12
-Shak|12
-Dash|9
-Ferdi|9
-Dale|8
+Anton|14
+Dale|14
+Dash|14
+Keith|14
+Ryan|13
+Nick|12
+Dylan|11
+Graham|8
 Yusri|8
 Casey|7
-Dawie|7
 Grant|7
 Eddy|6
-Greig|6
-Nick|6
+Mat T |6
+Mike|6
 Jason|5
+JJ|5
 Ayub|4
 Jake|4
 Rikki|4
-JJ|3
-Keith|3
+Ant|3
+Byron|3
+Dino|3
 Peter|3
 Rob|3
+Warren|3
 Adam|2
+Jeremy|2
 Keyraan|2
-Mat T |2
-Warren|2
-Dino|1
-Dylan|1
+Simphiwe|2
+Andrew|1
+Ash|1
+Ferhard|1
 Jayz|1
 Leon|1
-Ryan|1
 Terry|1
+Tom|1
 Tony|1
 
 
@@ -60,20 +70,24 @@ Tony|1
 
 Legend               | Tries | Percentage               
 -------------------- | ------- | :------------------:
-Justin|52|867%
-John|48|600%
-Gevihne|32|457%
-Timmy|25|313%
-Tristan|16|267%
-Ferdi|9|180%
-Dash|9|150%
-Dale|8|133%
-Graham***|12|133%
-Shak|12|120%
-Dawie|7|100%
-Nick|6|67%
-Greig|6|60%
-Keith|3|60%
-Mat T |2|40%
+Justin|94|783%
+John|75|625%
+Mat W|41|586%
+Gevihne|35|389%
+Timmy|25|278%
+Tristan|16|229%
+Ferdi|17|213%
+Dylan|11|183%
+Dawie|19|146%
+Dash|14|140%
+Grant|7|140%
+Shak|21|131%
+Dale|14|127%
+Keith|14|127%
+Greig|16|100%
+Ryan|13|93%
+Nick|12|80%
+Graham***|10|71%
+Mat T |6|67%
+Warren|3|60%
 Tony|1|20%
-Ryan|1|14%
