@@ -18,6 +18,7 @@ Legend               | Tries
 -------------------- | :------------------:
 Justin|94
 John|75
+Graham***|55
 Mat W|41
 Gevihne|35
 Timmy|25
@@ -25,6 +26,7 @@ Shak|21
 Dawie|19
 Ferdi|17
 Greig|16
+Mat T |16
 Tristan|16
 Anton|14
 Dale|14
@@ -33,12 +35,10 @@ Keith|14
 Ryan|13
 Nick|12
 Dylan|11
-Graham***|10
 Yusri|8
 Casey|7
 Grant|7
 Eddy|6
-Mat T |6
 Mike|6
 Jason|5
 JJ|5
@@ -72,11 +72,13 @@ Legend               | Tries | Percentage
 Justin|94|783%
 John|75|625%
 Mat W|41|586%
+Graham***|55|393%
 Gevihne|35|389%
 Timmy|25|278%
 Tristan|16|229%
 Ferdi|17|213%
 Dylan|11|183%
+Mat T |16|178%
 Dawie|19|146%
 Dash|14|140%
 Grant|7|140%
@@ -86,7 +88,5 @@ Keith|14|127%
 Greig|16|100%
 Ryan|13|93%
 Nick|12|80%
-Graham***|10|71%
-Mat T |6|67%
 Warren|3|60%
 Tony|1|20%
