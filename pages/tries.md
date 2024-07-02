@@ -8,6 +8,8 @@ permalink: /tries
 
 ****Malherbe Rule - A player proved they weigh more than (tries x 3)*
 
+***Old school Rule - Bringing drinks/beers (drie tries)*
+
 ***Need for tries catchup rule - After 5 games have been played*
 * *If the top try scorer doesn't score a try, then all tries scored that day are worth double*.  
 
