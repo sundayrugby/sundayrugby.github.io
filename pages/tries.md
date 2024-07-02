@@ -6,10 +6,9 @@ permalink: /tries
 
 **updated with game 2024-05-29*
 
-***Need for tries catchup rule - After 5 games have been played*
-
 ****Malherbe Rule - A player proved they weigh more than (tries x 3)*
 
+***Need for tries catchup rule - After 5 games have been played*
 * *If the top try scorer doesn't score a try, then all tries scored that day are worth double*.  
 
 <br> 
