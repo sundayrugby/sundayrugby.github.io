@@ -21,20 +21,21 @@ Legend               | Tries
 Justin|94
 John|75
 Graham***|55
-Mat W|41
+Mat W|43
 Gevihne|35
 Timmy|25
-Shak|21
+Greig|23
+Shak|23
+Ryan|22
+Rich|20
 Dawie|19
-Ferdi|17
-Greig|16
-Mat T |16
+Ferdi|19
+Dale|18
+Keith|17
+Mat T |17
 Tristan|16
 Anton|14
-Dale|14
 Dash|14
-Keith|14
-Ryan|13
 Nick|12
 Dylan|11
 Yusri|8
@@ -66,29 +67,29 @@ Terry|1
 Tom|1
 Tony|1
 
-
 **5 Game Minimum.*
 
 Legend               | Tries | Percentage               
 -------------------- | ------- | :------------------:
 Justin|94|783%
 John|75|625%
-Mat W|41|586%
+Mat W|43|614%
 Graham***|55|393%
 Gevihne|35|389%
+Anton|14|350%
 Timmy|25|278%
+Ferdi|19|238%
 Tristan|16|229%
-Ferdi|17|213%
+Mat T |17|189%
 Dylan|11|183%
-Mat T |16|178%
+Dale|18|164%
+Ryan|22|157%
+Keith|17|155%
 Dawie|19|146%
+Greig|23|144%
+Shak|23|144%
 Dash|14|140%
 Grant|7|140%
-Shak|21|131%
-Dale|14|127%
-Keith|14|127%
-Greig|16|100%
-Ryan|13|93%
 Nick|12|80%
 Warren|3|60%
 Tony|1|20%
