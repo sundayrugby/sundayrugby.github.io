@@ -14,6 +14,7 @@ permalink: /patrons
  - Ryan Povey
  - Greig Thomson
  - Mat Tyrrell
+ - John Sam
 
 
-R10 000
+R10 500
