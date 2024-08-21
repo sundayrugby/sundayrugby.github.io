@@ -4,61 +4,65 @@ title: Caps
 permalink: /caps
 ---
 
-**updated with game 2024-05-29*
+**updated with game 2024-07-21*
 
 
 Legend               | Caps   
 --------------------- | :------------------:
-Greig|16
-Shak|16
-Nick|15
-Graham|14
-Ryan|14
-Dawie|13
-John|12
-Justin|12
-Dale|11
-Keith|11
-Dash|10
-Gevihne|9
-Mat T |9
-Timmy|9
-Ferdi|8
-Mat W|7
-Tristan|7
-Dylan|6
-Brandan|5
-Grant|5
+Shak|21
+Nick|20
+Graham|19
+Ryan|19
+Greig|17
+Dawie|16
+John|16
+Justin|15
+Dale|13
+Dash|13
+Gevihne|13
+Keith|13
+Mat W|11
+Timmy|11
+Mat T |10
+Tristan|10
+Ferdi|9
+Brandan|7
+Dylan|7
+Grant|7
+Robin|6
+Anton|5
 Tony|5
 Warren|5
-Anton|4
+Andrew|4
+Ant|4
+Keyraan|4
 Rikki|4
-Robin|4
 Simphiwe|4
-Ant|3
 Eddy|3
-Keyraan|3
 Terry|3
 Yusri|3
-Andrew|2
 Ayub|2
 Casey|2
 Dino|2
 Jason|2
 JJ|2
+Mike|2
 Rob|2
+Shaka|2
 Adam|1
 Ash|1
 Byron|1
 Ferhard|1
 Gio|1
 Jake|1
+James|1
 Jandre|1
 Jayz|1
 Jeremy|1
 Leon|1
 Matthew|1
-Mike|1
+Paul|1
 Peter|1
+Rich|1
 Saul|1
 Tom|1
