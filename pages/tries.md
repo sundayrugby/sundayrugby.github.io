@@ -4,7 +4,7 @@ title: Tries
 permalink: /tries
 ---
 
-**updated with game 2024-07-21*
+**updated with game 2024-09-24*
 
 ****Malherbe Rule - A player proved they weigh more than (tries x 3)*
 
@@ -18,51 +18,53 @@ permalink: /tries
 
 Legend               | Tries               
 -------------------- | :------------------:
-Justin|106
-John|104
-Mat W|82
-Graham|67
-Shak|52
-Gevihne|51
-Ryan|40
-Timmy|37
-Nick|34
-Dale|28
-Keith|28
-Dawie|25
-Greig|25
-Dash|24
+John|139
+Justin|128
+Mat W|99
+Graham|79
+Gevihne|71
+Shak|65
+Ryan|57
+Timmy|45
+Nick|44
+Dawie|37
+Keith|34
+Anton|33
+Dale|31
+Greig|30
+Mat T |29
+Dash|26
+Dylan|24
+Ferdi|24
 Rich|24
 Tristan|23
-Anton|22
-Mat T |22
-Ferdi|19
-Grant|19
-Dylan|13
+Grant|20
+JJ|16
+Eddy|11
 Mike|10
 Yusri|8
 Brandan|7
 Casey|7
-Eddy|6
+Dino|5
 Jason|5
-JJ|5
 Ayub|4
+Ferhard|4
 Jake|4
 Rikki|4
+Simphiwe|4
 Ant|3
 Byron|3
-Dino|3
 James|3
 Peter|3
 Rob|3
+Robbie|3
+Shaka|3
 Warren|3
 Adam|2
+Andrew|2
 Jeremy|2
 Keyraan|2
-Simphiwe|2
-Andrew|1
 Ash|1
-Ferhard|1
 Jayz|1
 Leon|1
 Paul|1
@@ -74,24 +76,29 @@ Tony|1
 
 Legend               | Games | Percentage               
 -------------------- | ------- | :------------------:
-Mat W|11|745%
-Justin|15|707%
-John|16|650%
-Anton|5|440%
-Gevihne|13|392%
-Graham|19|353%
-Timmy|11|336%
-Grant|7|271%
-Shak|21|248%
+Mat W|13|762%
+Justin|18|711%
+John|20|695%
+Gevihne|16|444%
+Anton|8|413%
+Timmy|13|346%
+Graham|23|343%
+Shak|25|260%
+Grant|8|250%
+Ryan|23|248%
+Dylan|10|240%
+Ferdi|10|240%
 Tristan|10|230%
-Mat T |10|220%
-Dale|13|215%
-Keith|13|215%
-Ferdi|9|211%
-Ryan|19|211%
-Dylan|7|186%
-Dash|13|185%
-Nick|20|170%
-Dawie|16|156%
-Greig|17|147%
+Dale|14|221%
+Mat T |14|207%
+Keith|18|189%
+Dawie|20|185%
+Eddy|6|183%
+Nick|25|176%
+Dash|15|173%
+Greig|20|150%
 Brandan|7|100%
+Simphiwe|5|80%
+Warren|6|50%
+Andrew|5|40%
+Tony|5|20%
