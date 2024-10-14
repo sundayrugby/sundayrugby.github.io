@@ -81,27 +81,28 @@ Legend               | Games | Percentage
 -------------------- | ------- | :------------------:
 Mat W|13|762%
 Justin|18|711%
-John|20|695%
-Gevihne|16|444%
-Anton|8|413%
+John|21|686%
+Gevihne|17|547%
+Anton|10|410%
+JJ|5|360%
+Graham|25|352%
 Timmy|13|346%
-Graham|23|343%
-Shak|25|260%
+Dale|16|269%
+Ryan|25|260%
+Dylan|11|255%
+Shak|27|252%
 Grant|8|250%
-Ryan|23|248%
-Dylan|10|240%
-Ferdi|10|240%
+Ferdi|11|245%
 Tristan|10|230%
-Dale|14|221%
 Mat T |14|207%
-Keith|18|189%
+Dash|16|188%
 Dawie|20|185%
+Keith|19|184%
 Eddy|6|183%
-Nick|25|176%
-Dash|15|173%
-Greig|20|150%
+Nick|26|169%
+Greig|21|157%
 Brandan|7|100%
-Simphiwe|5|80%
+Simphiwe|6|100%
+Andrew|6|50%
 Warren|6|50%
-Andrew|5|40%
 Tony|5|20%
