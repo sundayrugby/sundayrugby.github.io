@@ -4,7 +4,7 @@ title: Tries
 permalink: /tries
 ---
 
-**updated with game 2024-09-24*
+**updated with game 2024-10-06*
 
 ****Malherbe Rule - A player proved they weigh more than (tries x 3)*
 
@@ -18,50 +18,53 @@ permalink: /tries
 
 Legend               | Tries               
 -------------------- | :------------------:
-John|139
+John|144
 Justin|128
 Mat W|99
-Graham|79
-Gevihne|71
-Shak|65
-Ryan|57
+Gevihne|93
+Graham|88
+Shak|68
+Ryan|65
 Timmy|45
 Nick|44
+Dale|43
+Anton|41
 Dawie|37
-Keith|34
-Anton|33
+Keith|35
 Greig|33
-Dale|31
+Dash|30
 Mat T |29
-Dash|26
-Dylan|24
-Ferdi|24
+Dylan|28
+Ferdi|27
 Rich|24
 Tristan|23
 Grant|20
-JJ|16
+JJ|18
 Eddy|11
 Mike|10
+Robbie|10
 Yusri|8
+Adam|7
 Brandan|7
 Casey|7
+Shaka|7
+Simphiwe|6
 Dino|5
 Jason|5
 Ayub|4
 Ferhard|4
 Jake|4
+Lulu|4
 Rikki|4
-Simphiwe|4
+Andrew|3
 Ant|3
 Byron|3
+Cam|3
 James|3
 Peter|3
 Rob|3
-Robbie|3
-Shaka|3
 Warren|3
-Adam|2
-Andrew|2
+Grant M|2
 Jeremy|2
 Keyraan|2
 Ash|1
