@@ -5,6 +5,11 @@ permalink: /games
 ---
 
 <div class="games-grid">
+  <a href="{{ site.github.url }}/rugby-runner" class="game-card">
+    <div class="game-card-icon">🏉</div>
+    <div class="game-card-title">Rugby Runner</div>
+    <div class="game-card-desc">Jump over tacklers — how far can you run?</div>
+  </a>
   <a href="{{ site.github.url }}/game" class="game-card">
     <div class="game-card-icon">🏃</div>
     <div class="game-card-title">Side Stepper</div>

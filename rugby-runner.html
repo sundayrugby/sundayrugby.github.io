@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rugby Runner</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #1a1a1a;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Courier New', Courier, monospace;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+    h1 {
+      color: #2d8f4e;
+      font-size: 1.5rem;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+    canvas {
+      display: block;
+      max-width: 100vw;
+      border-radius: 6px;
+    }
+    #meta {
+      display: flex;
+      width: 800px;
+      max-width: 100vw;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 4px 0;
+    }
+    #hi-display {
+      color: rgba(255,255,255,0.4);
+      font-size: 0.8rem;
+      letter-spacing: 2px;
+    }
+    a.back {
+      color: rgba(255,255,255,0.3);
+      font-size: 0.75rem;
+      letter-spacing: 1px;
+      text-decoration: none;
+    }
+    a.back:hover { color: #2d8f4e; }
+  </style>
+</head>
+<body>
+  <h1>Rugby Runner</h1>
+  <canvas id="c" width="800" height="280"></canvas>
+  <div id="meta">
+    <div id="hi-display">HI <span id="hival">00000</span></div>
+    <a href="/games" class="back">← Games</a>
+  </div>
+
+<script>
+const canvas = document.getElementById('c');
+const ctx    = canvas.getContext('2d');
+const W = 800, H = 280;
+const GROUND = 232;   // y of ground surface
+const GRAV   = 0.72;
+const JUMP_V = -14.5;
+
+// Colour palette
+const SKIN   = '#d4956a';
+const SKIN2  = '#c07a50';
+const GREEN  = '#2d8f4e';
+const RED    = '#c23b22';
+const DARK   = '#1a1a2e';
+const WHITE  = '#ffffff';
+const BALL   = '#8B4513';
+
+let state  = 'idle';   // idle | run | dead
+let score  = 0;
+let hi     = +(localStorage.getItem('rrHi') || 0);
+let spd    = 5.5;
+let tick   = 0;
+let legF   = 0, legT = 0;
+let obstacles = [];
+let nextIn = 90;
+let dust   = [];
+let newHi  = false;
+let clouds = [
+  { x: 110, y: 52, s: 1.0 },
+  { x: 370, y: 38, s: 0.75 },
+  { x: 620, y: 62, s: 0.9  },
+];
+
+document.getElementById('hival').textContent = pad(hi);
+
+const pl = { x: 80, y: GROUND, vy: 0, grounded: true };
+
+function reset() {
+  score = 0; spd = 5.5; tick = 0;
+  legF = 0; legT = 0;
+  obstacles = []; dust = []; nextIn = 90;
+  pl.y = GROUND; pl.vy = 0; pl.grounded = true;
+  newHi = false;
+}
+
+function doJump() {
+  if (state === 'idle') { state = 'run'; reset(); return; }
+  if (state === 'dead') { state = 'idle'; return; }
+  if (pl.grounded) {
+    pl.vy = JUMP_V;
+    pl.grounded = false;
+    for (let i = 0; i < 5; i++) dust.push({
+      x: pl.x + (Math.random() - 0.5) * 12,
+      y: GROUND,
+      vx: (Math.random() - 0.6) * 2.5,
+      vy: -Math.random() * 3.5 - 1,
+      life: 20,
+    });
+  }
+}
+
+document.addEventListener('keydown', e => {
+  if (e.code === 'Space' || e.code === 'ArrowUp') { e.preventDefault(); doJump(); }
+});
+canvas.addEventListener('pointerdown', e => { e.preventDefault(); doJump(); });
+
+// ─── UPDATE ─────────────────────────────────────────────────────────────────
+
+function update() {
+  if (state !== 'run') return;
+  tick++;
+  score = Math.floor(tick / 6);
+  spd   = Math.min(13, 5.5 + tick / 380);
+
+  // Player physics
+  pl.vy += GRAV;
+  pl.y  += pl.vy;
+  if (pl.y >= GROUND) { pl.y = GROUND; pl.vy = 0; pl.grounded = true; }
+
+  // Leg animation — faster stride at higher speed
+  legT++;
+  if (legT >= Math.max(3, Math.round(9 - spd * 0.45))) { legT = 0; legF ^= 1; }
+
+  // Clouds (slow parallax)
+  clouds.forEach(c => { c.x -= spd * 0.14; if (c.x < -120) c.x = W + 80; });
+
+  // Dust particles
+  dust = dust.filter(d => d.life > 0);
+  dust.forEach(d => { d.x += d.vx; d.y += d.vy; d.vy += 0.18; d.life--; });
+
+  // Spawn obstacles
+  nextIn--;
+  if (nextIn <= 0) {
+    const type = Math.random() < 0.55 ? 'single' : 'double';
+    obstacles.push({ x: W + 40, type });
+    const gap = Math.max(48, Math.floor(68 + Math.random() * 72 - (spd - 5.5) * 3.5));
+    nextIn = gap;
+  }
+  obstacles.forEach(o => o.x -= spd);
+  obstacles = obstacles.filter(o => o.x > -100);
+
+  // Collision
+  const pb = playerBox();
+  for (const obs of obstacles) {
+    for (const hb of obsBoxes(obs)) {
+      if (pb.x < hb.x + hb.w && pb.x + pb.w > hb.x &&
+          pb.y < hb.y + hb.h && pb.y + pb.h > hb.y) {
+        state = 'dead';
+        if (score > hi) {
+          hi = score;
+          localStorage.setItem('rrHi', hi);
+          document.getElementById('hival').textContent = pad(hi);
+          newHi = true;
+        }
+        return;
+      }
+    }
+  }
+}
+
+function playerBox() {
+  // Slightly inset for fair collisions
+  return { x: pl.x - 10, y: pl.y - 64, w: 20, h: 60 };
+}
+
+function obsBoxes(obs) {
+  if (obs.type === 'single') {
+    return [{ x: obs.x - 16, y: GROUND - 54, w: 32, h: 54 }];
+  }
+  return [
+    { x: obs.x - 44, y: GROUND - 54, w: 32, h: 54 },
+    { x: obs.x + 12, y: GROUND - 54, w: 32, h: 54 },
+  ];
+}
+
+// ─── DRAW ────────────────────────────────────────────────────────────────────
+
+function draw() {
+  // Sky
+  const sky = ctx.createLinearGradient(0, 0, 0, GROUND);
+  sky.addColorStop(0, '#c5e8d5');
+  sky.addColorStop(1, '#e8f5ee');
+  ctx.fillStyle = sky;
+  ctx.fillRect(0, 0, W, GROUND);
+
+  // Clouds
+  clouds.forEach(c => drawCloud(c.x, c.y, c.s));
+
+  // Grass strip
+  ctx.fillStyle = '#4f9a35';
+  ctx.fillRect(0, GROUND, W, 9);
+  // Ground body
+  ctx.fillStyle = '#6b4f2a';
+  ctx.fillRect(0, GROUND + 9, W, H - GROUND - 9);
+  // Ground line detail
+  ctx.strokeStyle = 'rgba(255,255,255,0.22)';
+  ctx.setLineDash([14, 18]);
+  ctx.lineWidth = 2;
+  ctx.beginPath(); ctx.moveTo(0, GROUND + 22); ctx.lineTo(W, GROUND + 22); ctx.stroke();
+  ctx.setLineDash([]);
+
+  // Dust
+  dust.forEach(d => {
+    ctx.globalAlpha = (d.life / 20) * 0.55;
+    ctx.fillStyle = '#b09070';
+    ctx.beginPath(); ctx.arc(d.x, d.y, 2.5, 0, Math.PI * 2); ctx.fill();
+  });
+  ctx.globalAlpha = 1;
+
+  // Obstacles
+  obstacles.forEach(drawObs);
+
+  // Player
+  drawRunner(pl.x, pl.y, legF, !pl.grounded);
+
+  // Score HUD
+  ctx.fillStyle = 'rgba(20,20,20,0.55)';
+  ctx.font = 'bold 14px "Courier New"';
+  ctx.textAlign = 'right';
+  ctx.fillText('HI ' + pad(hi) + '  ' + pad(score), W - 14, 26);
+
+  // Overlays
+  if (state === 'idle') drawOverlay('RUGBY RUNNER', 'SPACE / TAP to start', null);
+  if (state === 'dead')  drawOverlay('TACKLED!', 'Score: ' + score, newHi ? 'NEW HIGH SCORE!' : 'SPACE / TAP to retry');
+}
+
+function pad(n) { return String(n).padStart(5, '0'); }
+
+function drawCloud(cx, cy, s) {
+  ctx.fillStyle = 'rgba(255,255,255,0.72)';
+  ctx.beginPath();
+  ctx.arc(cx,        cy,       20 * s, 0, Math.PI * 2);
+  ctx.arc(cx + 28*s, cy - 10*s, 16*s, 0, Math.PI * 2);
+  ctx.arc(cx + 50*s, cy,       18 * s, 0, Math.PI * 2);
+  ctx.fill();
+}
+
+function drawOverlay(line1, line2, line3) {
+  ctx.fillStyle = 'rgba(0,0,0,0.46)';
+  ctx.fillRect(0, 0, W, H);
+  ctx.textAlign = 'center';
+  ctx.fillStyle = WHITE;
+  ctx.font = 'bold 26px "Courier New"';
+  ctx.fillText(line1, W / 2, H / 2 - 16);
+  ctx.font = '14px "Courier New"';
+  ctx.fillStyle = 'rgba(255,255,255,0.65)';
+  ctx.fillText(line2, W / 2, H / 2 + 12);
+  if (line3) {
+    ctx.fillStyle = '#f1c40f';
+    ctx.font = 'bold 13px "Courier New"';
+    ctx.fillText(line3, W / 2, H / 2 + 36);
+  }
+}
+
+function drawObs(obs) {
+  if (obs.type === 'single') {
+    drawTackler(obs.x);
+  } else {
+    drawTackler(obs.x - 28);
+    drawTackler(obs.x + 28);
+  }
+}
+
+// ─── RUNNER ──────────────────────────────────────────────────────────────────
+// cx = horizontal centre, by = bottom (ground contact y)
+
+function drawRunner(cx, by, lf, jumping) {
+  const headY = by - 71;
+  const shlY  = by - 58;   // shoulder y
+  const hipY  = by - 38;   // hip y
+
+  // Leg targets (knee x/y and foot x/y)
+  let lk, lf_, rk, rf_;
+  if (jumping) {
+    lk = { x: cx - 8,  y: by - 28 }; lf_ = { x: cx - 12, y: by - 14 };
+    rk = { x: cx + 6,  y: by - 24 }; rf_  = { x: cx + 10, y: by - 10 };
+  } else if (lf === 0) {
+    lk = { x: cx - 6,  y: by - 20 }; lf_ = { x: cx - 16, y: by - 2  };
+    rk = { x: cx + 4,  y: by - 22 }; rf_  = { x: cx + 12, y: by - 2  };
+  } else {
+    lk = { x: cx + 4,  y: by - 22 }; lf_ = { x: cx + 12, y: by - 2  };
+    rk = { x: cx - 6,  y: by - 20 }; rf_  = { x: cx - 16, y: by - 2  };
+  }
+
+  // Boots
+  ctx.fillStyle = '#1a1a1a';
+  ctx.beginPath(); ctx.ellipse(lf_.x, by - 1, 9, 5, 0, 0, Math.PI * 2); ctx.fill();
+  ctx.beginPath(); ctx.ellipse(rf_.x, by - 1, 9, 5, 0, 0, Math.PI * 2); ctx.fill();
+
+  // Socks
+  ctx.strokeStyle = WHITE; ctx.lineWidth = 6; ctx.lineCap = 'round';
+  ctx.beginPath(); ctx.moveTo(lf_.x, by - 5); ctx.lineTo(lf_.x, by - 16); ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(rf_.x, by - 5); ctx.lineTo(rf_.x, by - 16); ctx.stroke();
+
+  // Legs (skin, 2-segment)
+  ctx.strokeStyle = SKIN; ctx.lineWidth = 9;
+  ctx.beginPath(); ctx.moveTo(cx, hipY); ctx.lineTo(lk.x, lk.y); ctx.lineTo(lf_.x, by - 14); ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(cx, hipY); ctx.lineTo(rk.x, rk.y); ctx.lineTo(rf_.x, by - 14); ctx.stroke();
+
+  // Shorts
+  ctx.fillStyle = DARK;
+  ctx.fillRect(cx - 13, hipY, 26, 17);
+
+  // Jersey body
+  ctx.fillStyle = GREEN;
+  ctx.fillRect(cx - 12, shlY, 24, hipY - shlY);
+  // White centre stripe
+  ctx.fillStyle = 'rgba(255,255,255,0.28)';
+  ctx.fillRect(cx - 4, shlY, 8, hipY - shlY);
+
+  // Arms
+  let laE, laH, raE, raH;  // elbow and hand positions
+  if (jumping) {
+    laE = { x: cx - 18, y: shlY + 2  }; laH = { x: cx - 24, y: shlY - 12 };
+    raE = { x: cx + 18, y: shlY + 2  }; raH = { x: cx + 24, y: shlY - 12 };
+  } else if (lf === 0) {
+    laE = { x: cx - 16, y: shlY + 16 }; laH = { x: cx - 12, y: shlY + 30 };
+    raE = { x: cx + 16, y: shlY + 6  }; raH = { x: cx + 24, y: shlY - 6  };
+  } else {
+    laE = { x: cx - 16, y: shlY + 6  }; laH = { x: cx - 24, y: shlY - 6  };
+    raE = { x: cx + 16, y: shlY + 16 }; raH = { x: cx + 12, y: shlY + 30 };
+  }
+  ctx.strokeStyle = SKIN; ctx.lineWidth = 7;
+  ctx.beginPath(); ctx.moveTo(cx - 10, shlY + 4); ctx.lineTo(laE.x, laE.y); ctx.lineTo(laH.x, laH.y); ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(cx + 10, shlY + 4); ctx.lineTo(raE.x, raE.y); ctx.lineTo(raH.x, raH.y); ctx.stroke();
+
+  // Rugby ball tucked under right arm
+  ctx.save();
+  ctx.translate(cx + 21, shlY + 10);
+  ctx.rotate(0.35);
+  ctx.fillStyle = BALL;
+  ctx.beginPath(); ctx.ellipse(0, 0, 13, 7, 0, 0, Math.PI * 2); ctx.fill();
+  ctx.strokeStyle = WHITE; ctx.lineWidth = 1.2;
+  ctx.beginPath(); ctx.ellipse(0, 0, 13, 7, 0, 0, Math.PI * 2); ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(-9, 0); ctx.lineTo(9, 0); ctx.stroke(); // seam
+  ctx.restore();
+
+  // Head
+  ctx.fillStyle = SKIN;
+  ctx.beginPath(); ctx.arc(cx, headY, 12, 0, Math.PI * 2); ctx.fill();
+
+  // Scrum cap
+  ctx.fillStyle = '#2a2a2a';
+  ctx.beginPath(); ctx.arc(cx, headY, 12, Math.PI * 1.05, Math.PI * 2.1); ctx.fill();
+  // Chin strap
+  ctx.strokeStyle = '#2a2a2a'; ctx.lineWidth = 2.5;
+  ctx.beginPath();
+  ctx.arc(cx, headY, 12, Math.PI * 0.1, Math.PI * 0.9);
+  ctx.stroke();
+
+  // Eye (facing right)
+  ctx.fillStyle = '#2a2a2a';
+  ctx.beginPath(); ctx.arc(cx + 5, headY, 2.5, 0, Math.PI * 2); ctx.fill();
+  // Mouth
+  ctx.strokeStyle = '#a06040'; ctx.lineWidth = 1.5;
+  ctx.beginPath(); ctx.moveTo(cx + 3, headY + 6); ctx.lineTo(cx + 9, headY + 5); ctx.stroke();
+}
+
+// ─── TACKLER ─────────────────────────────────────────────────────────────────
+// Opponent bent low in tackle position, facing left (toward player)
+
+function drawTackler(cx) {
+  const by   = GROUND;
+  const hipX = cx + 4,  hipY  = by - 34;
+  const shlX = cx - 18, shlY  = by - 52;
+  const headX = shlX - 10, headY = shlY - 10;
+
+  // Boots
+  ctx.fillStyle = '#1a1a1a';
+  ctx.beginPath(); ctx.ellipse(cx - 10, by, 9, 5, 0, 0, Math.PI * 2); ctx.fill();
+  ctx.beginPath(); ctx.ellipse(cx + 12, by, 9, 5, 0, 0, Math.PI * 2); ctx.fill();
+
+  // Socks
+  ctx.strokeStyle = WHITE; ctx.lineWidth = 6; ctx.lineCap = 'round';
+  ctx.beginPath(); ctx.moveTo(cx - 10, by - 5); ctx.lineTo(cx - 10, by - 16); ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(cx + 12, by - 5); ctx.lineTo(cx + 12, by - 16); ctx.stroke();
+
+  // Legs (wide bent stance)
+  ctx.strokeStyle = SKIN2; ctx.lineWidth = 9;
+  ctx.beginPath(); ctx.moveTo(hipX, hipY); ctx.lineTo(cx - 6, by - 18); ctx.lineTo(cx - 10, by); ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(hipX, hipY); ctx.lineTo(cx + 8, by - 18); ctx.lineTo(cx + 12, by); ctx.stroke();
+
+  // Shorts
+  ctx.fillStyle = DARK;
+  ctx.fillRect(cx - 8, hipY - 2, 24, 13);
+
+  // Jersey (torso — stroke with thick rounded line for body shape)
+  ctx.strokeStyle = RED; ctx.lineWidth = 18; ctx.lineCap = 'round';
+  ctx.beginPath(); ctx.moveTo(hipX, hipY); ctx.lineTo(shlX, shlY); ctx.stroke();
+  // Stripe
+  ctx.strokeStyle = 'rgba(255,255,255,0.22)'; ctx.lineWidth = 6;
+  ctx.beginPath(); ctx.moveTo(hipX + 2, hipY); ctx.lineTo(shlX + 2, shlY); ctx.stroke();
+
+  // Arms — reaching forward and wide to wrap tackle
+  ctx.strokeStyle = SKIN2; ctx.lineWidth = 7; ctx.lineCap = 'round';
+  // Leading arm (reaching low toward player)
+  ctx.beginPath();
+  ctx.moveTo(shlX, shlY);
+  ctx.lineTo(cx - 32, by - 32);
+  ctx.lineTo(cx - 40, by - 22);
+  ctx.stroke();
+  // Trailing arm (sweeping around)
+  ctx.beginPath();
+  ctx.moveTo(shlX, shlY);
+  ctx.lineTo(cx - 20, by - 44);
+  ctx.lineTo(cx - 26, by - 34);
+  ctx.stroke();
+
+  // Head
+  ctx.fillStyle = SKIN2;
+  ctx.beginPath(); ctx.arc(headX, headY, 10, 0, Math.PI * 2); ctx.fill();
+
+  // Hair
+  ctx.fillStyle = '#6a3e18';
+  ctx.beginPath(); ctx.arc(headX, headY, 10, Math.PI * 0.95, Math.PI * 2.05); ctx.fill();
+
+  // Eye (facing left)
+  ctx.fillStyle = '#2a2a2a';
+  ctx.beginPath(); ctx.arc(headX - 3, headY, 2, 0, Math.PI * 2); ctx.fill();
+}
+
+// ─── LOOP ─────────────────────────────────────────────────────────────────────
+
+function loop() {
+  update();
+  draw();
+  requestAnimationFrame(loop);
+}
+loop();
+</script>
+</body>
+</html>
