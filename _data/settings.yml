@@ -8,13 +8,13 @@ disqus:
 google-ID: 'G-73WEC21K1P'
 
 menu:
-- {name: 'Game Posts',       url: 'game-posts'}
+- {name: 'Matches',           url: 'game-posts'}
 - {name: 'Caps',              url: 'caps'}
-- {name: 'Tries',              url: 'tries'}
-- {name: 'Archive',              url: 'archive'}
-- {name: 'About',              url: 'about'}
-- {name: 'Contact',            url: 'contact'}
-- {name: 'Patrons',            url: 'patrons'}
+- {name: 'Tries',             url: 'tries'}
+- {name: 'Archive',           url: 'archive'}
+- {name: 'About',             url: 'about'}
+- {name: 'Games',             url: 'games'}
+- {name: 'Patrons',           url: 'patrons'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
