@@ -7,7 +7,7 @@
   margin-left: auto;
   margin-right: auto;
 }
-.container a {
+.container a:not(.menu-link):not(.pagination-button):not(.game-card) {
   text-decoration: underline;
 }
 .content-wrapper {

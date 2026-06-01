@@ -90,6 +90,10 @@ dd {
 a {
   color: $brand-color;
   text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: $accent-color;
 }
 
 /*

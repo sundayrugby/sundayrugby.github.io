@@ -1,29 +1,37 @@
 .footer {
-  background: white;
-  color: $brand-color;
+  background: $header-bg;
+  color: rgba(255,255,255,0.7);
   text-align: center;
   min-height: 56px;
   line-height: 45px;
   width: $container-width;
+  margin-top: 40px;
+  border-radius: 8px 8px 0 0;
 }
 .footer a {
-  color: $brand-color;
+  color: rgba(255,255,255,0.7);
   padding: 0px 10px 0px;
   text-decoration: none;
+  transition: color 0.2s;
+  &:hover {
+    color: $accent-color;
+  }
 }
 @media (max-width: $container-width) {
   .footer {
-    background: white;
-    color: $brand-color;
+    background: $header-bg;
+    color: rgba(255,255,255,0.7);
     text-align: center;
     min-height: 56px;
     line-height: 45px;
     width: 95vw;
+    margin-top: 40px;
+    border-radius: 8px 8px 0 0;
   }
 }
 .footer-description {
   display: block;
   margin-bottom: 1rem;
-  color: #9a9a9a;
-  font-size:0.8rem;
+  color: rgba(255,255,255,0.4);
+  font-size: 0.8rem;
 }

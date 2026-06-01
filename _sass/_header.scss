@@ -2,8 +2,8 @@
   min-height: 56px;
   width: $container-width;
   position: fixed;
-  background-color: white;
-  box-shadow: 0 5px 6px -6px #bbb;
+  background-color: $header-bg;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.4);
   z-index: 100;
 }
 @media (max-width: $container-width) {
@@ -11,22 +11,26 @@
     min-height: 56px;
     width: 95vw;
     position: fixed;
-    background-color: white;
-    box-shadow: 0 5px 6px -6px #bbb;
+    background-color: $header-bg;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.4);
     z-index: 100;
   }
 }
 .site-header a {
   text-decoration: none;
+  color: $header-text;
 }
 .site-title {
-  font-size: 26px;
-  font-weight: 400;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   line-height: 56px;
   margin-bottom: 0;
   margin-top: 0;
-  padding-left: 10px;
+  padding-left: 14px;
   float: left;
+  color: $header-text;
+  text-transform: uppercase;
 }
 .menu-list {
   line-height: $header-thickness;
@@ -34,6 +38,14 @@
 }
 .menu-link {
   padding: 5px 10px;
+  color: rgba(255,255,255,0.85);
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  transition: color 0.2s;
+  &:hover {
+    color: $accent-color;
+  }
 }
 
 /*
@@ -56,8 +68,8 @@
     padding-right: 0.25rem;
   }
   .dropbtn {
-    background-color: white;
-    color: black;
+    background-color: transparent;
+    color: $header-text;
     padding: 16px;
     margin-top: 4px;
     font-size: 16px;
@@ -71,24 +83,28 @@
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    right: 0;
+    background-color: $header-bg;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.3);
     z-index: 1;
+    border-radius: 0 0 6px 6px;
   }
   .dropdown-content a {
-    color: black;
+    color: rgba(255,255,255,0.85);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    font-size: 0.9rem;
   }
   .dropdown-content a:hover {
-    background-color: #f1f1f1
+    background-color: rgba(255,255,255,0.08);
+    color: $accent-color;
   }
   .dropdown:hover .dropdown-content {
     display: block;
   }
   .dropdown:hover .dropbtn {
-    background-color: #f1f1f1;
+    color: $accent-color;
   }
 }
