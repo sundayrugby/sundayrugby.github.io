@@ -4,6 +4,185 @@ title: Archive
 permalink: /archive
 ---
 
+# 2024
+
+*updated with game 2024-10-20*
+
+## Caps
+
+| Legend               | Caps   
+|--------------------- | :------------------:
+|Shak|28
+|Graham|26
+|Nick|26
+|Ryan|26
+|Greig|21
+|John|21
+|Dawie|20
+|Keith|19
+|Justin|18
+|Dash|17
+|Gevihne|17
+|Dale|16
+|Mat T |14
+|Mat W|13
+|Timmy|13
+|Anton|11
+|Dylan|11
+|Ferdi|11
+|Tristan|10
+|Grant|9
+|Brandan|7
+|Robin|7
+|Simphiwe|7
+|Andrew|6
+|Eddy|6
+|Warren|6
+|JJ|5
+|Shaka|5
+|Tony|5
+|Ant|4
+|Keyraan|4
+|Rikki|4
+|Ayub|3
+|Dino|3
+|Robbie|3
+|Terry|3
+|Yusri|3
+|Adam|2
+|Casey|2
+|Ferhard|2
+|Grant M|2
+|Ian|2
+|Jason|2
+|Lulu|2
+|Mike|2
+|Rob|2
+|Ash|1
+|Byron|1
+|Cam|1
+|Connor|1
+|G|1
+|Gio|1
+|Jake|1
+|James|1
+|Jandre|1
+|Jayz|1
+|Jeremy|1
+|Jo|1
+|Leon|1
+|Matthew|1
+|Paul|1
+|Peter|1
+|Rich|1
+|Saul|1
+|Tom|1
+|Vuyo|1
+
+## Tries
+
+****Malherbe Rule - A player proved they weigh more than (tries x 3)*
+
+***Old school Rule - Bringing drinks/beers (drie tries)*
+
+***Need for tries catchup rule - After 5 games have been played*
+* *If the top try scorer doesn't score a try, then all tries scored that day are worth double*.  
+
+| Legend               | Tries               
+|-------------------- | :------------------:
+|John|144
+|Justin|128
+|Mat W|99
+|Gevihne|93
+|Graham|92
+|Shak|78
+|Ryan|68
+|Anton|51
+|Timmy|45
+|Nick|44
+|Dale|43
+|Dash|42
+|Dawie|37
+|Keith|35
+|Greig|33
+|Mat T |29
+|Dylan|28
+|Ferdi|27
+|Rich|24
+|Tristan|23
+|Shaka|21
+|Grant|20
+|JJ|18
+|Simphiwe|12
+|Eddy|11
+|Ayub|10
+|Lulu|10
+|Mike|10
+|Robbie|10
+|Grant M|8
+|Yusri|8
+|Adam|7
+|Brandan|7
+|Casey|7
+|Dino|5
+|Jason|5
+|Ferhard|4
+|G|4
+|Jake|4
+|Rikki|4
+|Andrew|3
+|Ant|3
+|Byron|3
+|Cam|3
+|James|3
+|Peter|3
+|Rob|3
+|Warren|3
+|Connor|2
+|Jeremy|2
+|Keyraan|2
+|Vuyo|2
+|Ash|1
+|Jayz|1
+|Leon|1
+|Paul|1
+|Terry|1
+|Tom|1
+|Tony|1
+
+**5 Game Minimum.*
+
+| Legend               | Games | Percentage               
+|-------------------- | ------- | :------------------:
+|Mat W|13|762%
+|Justin|18|711%
+|John|21|686%
+|Gevihne|17|547%
+|Anton|11|464%
+|Shaka|5|420%
+|JJ|5|360%
+|Graham|26|354%
+|Timmy|13|346%
+|Shak|28|279%
+|Dale|16|269%
+|Ryan|26|262%
+|Dylan|11|255%
+|Dash|17|247%
+|Ferdi|11|245%
+|Tristan|10|230%
+|Grant|9|222%
+|Mat T |14|207%
+|Dawie|20|185%
+|Keith|19|184%
+|Eddy|6|183%
+|Simphiwe|7|171%
+|Nick|26|169%
+|Greig|21|157%
+|Brandan|7|100%
+|Andrew|6|50%
+|Warren|6|50%
+|Tony|5|20%
+
 # 2023
 
 ## Caps
@@ -298,7 +477,6 @@ Warren K|1
 Wayne|1
 Wazza|1
 
-
 ## Tries
 
 Legend               | Tries               
@@ -361,7 +539,6 @@ Lloyd|1
 Ryan L|1
 Wazza|1
 
-
 **Minimum 5 games.*
 
 
@@ -400,4 +577,3 @@ Nick M|29%
 Terry|29%
 Grant R|17%
 Ryan L|10%
-
