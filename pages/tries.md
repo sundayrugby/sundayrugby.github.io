@@ -45,7 +45,7 @@ permalink: /tries
 <thead><tr><th class="rank">#</th><th class="name">Player</th><th class="count">Tries</th></tr></thead>
 <tbody>
 <tr class="podium-1"><td class="rank">1</td><td class="name">Mat W</td><td class="count"><span class="bar bar-1" style="width:120px"></span>18</td></tr>
-<tr class="podium-2"><td class="rank">2</td><td class="name">Shaka</td><td class="count"><span class="bar bar-2" style="width:107px"></span>16</td></tr>
+<tr class="podium-2"><td class="rank">2</td><td class="name">Shaka</td><td class="count"><span class="bar bar-2" style="width:93px"></span>14</td></tr>
 <tr class="podium-3"><td class="rank">3</td><td class="name">Gevihne</td><td class="count"><span class="bar bar-3" style="width:107px"></span>16</td></tr>
 <tr><td class="rank">4</td><td class="name">John</td><td class="count"><span class="bar bar-n" style="width:100px"></span>15</td></tr>
 <tr><td class="rank">5</td><td class="name">Justin</td><td class="count"><span class="bar bar-n" style="width:87px"></span>13</td></tr>
@@ -62,7 +62,7 @@ permalink: /tries
 </tbody>
 </table>
 
-*Full 2026 try scorers (single-try scorers on request):* Peter 4, Ryan J 4, Nxamalala 4, Dale 3, Terry 3, Robin 3, Farai 3, Gareth 3, Rich 3, Brent 3, Dash 2, Chad 1, Adam 1, Dawie 1, Jeremy 1.
+*Full 2026 try scorers (single-try scorers on request):* Peter 4, Ryan J 4, Nxamalala 4, Dale 3, Terry 3, Robin 3, Farai 3, Gareth 3, Rich 3, Brent 3, Dash 2, Shak 2, Chad 1, Adam 1, Dawie 1, Jeremy 1.
 
 ## 5 Game Minimum — 2026
 
@@ -70,7 +70,7 @@ permalink: /tries
 
 | Player | Caps | Tries | Tries/Game |
 | --- | --- | --- | --- |
-| Shaka | 6 | 16 | 267% |
+| Shaka | 6 | 14 | 233% |
 | Lutho | 5 | 12 | 240% |
 | Lario | 6 | 11 | 183% |
 | Ryan | 7 | 8 | 114% |

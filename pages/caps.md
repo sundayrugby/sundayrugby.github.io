@@ -62,4 +62,4 @@ permalink: /caps
 </tbody>
 </table>
 
-*Full 2026 squad list (3+ caps only shown above; full set on request):* Greig 3, Gevihne 3, Ryan J 3, Anton 3, Nxamalala 3, Graham 2, Greg 2, Peter 2, Warren 2, Justin 2, Adam 2, Grieg 1, Dale 1, Chad 1, Rikki 1, George 1, Gareth 1, Rich 1, Dawie 1, Jeremy 1, Ryan L 1, Dash 1.
+*Full 2026 squad list (3+ caps only shown above; full set on request):* Greig 3, Gevihne 3, Ryan J 3, Anton 3, Nxamalala 3, Graham 2, Greg 2, Peter 2, Warren 2, Justin 2, Adam 2, Grieg 1, Dale 1, Chad 1, Rikki 1, George 1, Gareth 1, Rich 1, Dawie 1, Jeremy 1, Ryan L 1, Dash 1, Shak 1.
