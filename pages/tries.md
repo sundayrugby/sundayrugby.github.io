@@ -39,30 +39,30 @@ permalink: /tries
 
 <h2 id="y2026">2026 <span class="badge badge-progress">IN PROGRESS</span></h2>
 
-*10 games, 271 tries scored*
+*11 games, 288 tries scored*
 
 <table class="stats">
 <thead><tr><th class="rank">#</th><th class="name">Player</th><th class="count">Tries</th></tr></thead>
 <tbody>
 <tr class="podium-1"><td class="rank">1</td><td class="name">Mat W</td><td class="count"><span class="bar bar-1" style="width:120px"></span>21</td></tr>
-<tr class="podium-2"><td class="rank">2</td><td class="name">John</td><td class="count"><span class="bar bar-2" style="width:108px"></span>19</td></tr>
-<tr class="podium-3"><td class="rank">3</td><td class="name">Lutho</td><td class="count"><span class="bar bar-3" style="width:102px"></span>18</td></tr>
-<tr><td class="rank">4</td><td class="name">Shaka</td><td class="count"><span class="bar bar-n" style="width:91px"></span>16</td></tr>
-<tr><td class="rank">5</td><td class="name">Gevihne</td><td class="count"><span class="bar bar-n" style="width:91px"></span>16</td></tr>
-<tr><td class="rank">6</td><td class="name">Lario</td><td class="count"><span class="bar bar-n" style="width:85px"></span>15</td></tr>
-<tr><td class="rank">7</td><td class="name">Justin</td><td class="count"><span class="bar bar-n" style="width:74px"></span>13</td></tr>
-<tr><td class="rank">8</td><td class="name">Anton</td><td class="count"><span class="bar bar-n" style="width:74px"></span>13</td></tr>
-<tr><td class="rank">9</td><td class="name">Keith</td><td class="count"><span class="bar bar-n" style="width:62px"></span>11</td></tr>
-<tr><td class="rank">10</td><td class="name">Ryan</td><td class="count"><span class="bar bar-n" style="width:62px"></span>11</td></tr>
+<tr class="podium-2"><td class="rank">2</td><td class="name">Lutho</td><td class="count"><span class="bar bar-2" style="width:114px"></span>20</td></tr>
+<tr class="podium-3"><td class="rank">3</td><td class="name">John</td><td class="count"><span class="bar bar-3" style="width:108px"></span>19</td></tr>
+<tr><td class="rank">4</td><td class="name">Shaka</td><td class="count"><span class="bar bar-n" style="width:97px"></span>17</td></tr>
+<tr><td class="rank">5</td><td class="name">Lario</td><td class="count"><span class="bar bar-n" style="width:97px"></span>17</td></tr>
+<tr><td class="rank">6</td><td class="name">Gevihne</td><td class="count"><span class="bar bar-n" style="width:91px"></span>16</td></tr>
+<tr><td class="rank">7</td><td class="name">Ryan</td><td class="count"><span class="bar bar-n" style="width:74px"></span>13</td></tr>
+<tr><td class="rank">8</td><td class="name">Justin</td><td class="count"><span class="bar bar-n" style="width:74px"></span>13</td></tr>
+<tr><td class="rank">9</td><td class="name">Anton</td><td class="count"><span class="bar bar-n" style="width:74px"></span>13</td></tr>
+<tr><td class="rank">10</td><td class="name">Keith</td><td class="count"><span class="bar bar-n" style="width:62px"></span>11</td></tr>
 <tr><td class="rank">11</td><td class="name">Ethan</td><td class="count"><span class="bar bar-n" style="width:62px"></span>11</td></tr>
-<tr><td class="rank">12</td><td class="name">Siraaj</td><td class="count"><span class="bar bar-n" style="width:51px"></span>9</td></tr>
-<tr><td class="rank">13</td><td class="name">Farai</td><td class="count"><span class="bar bar-n" style="width:45px"></span>8</td></tr>
+<tr><td class="rank">12</td><td class="name">Siraaj</td><td class="count"><span class="bar bar-n" style="width:62px"></span>11</td></tr>
+<tr><td class="rank">13</td><td class="name">Farai</td><td class="count"><span class="bar bar-n" style="width:51px"></span>9</td></tr>
 <tr><td class="rank">14</td><td class="name">Greg</td><td class="count"><span class="bar bar-n" style="width:40px"></span>7</td></tr>
 <tr><td class="rank">15</td><td class="name">Greig</td><td class="count"><span class="bar bar-n" style="width:40px"></span>7</td></tr>
 </tbody>
 </table>
 
-*Full 2026 try scorers (4+ only shown above; full set on request):* Mat W 21, John 19, Lutho 18, Shaka 16, Gevihne 16, Lario 15, Justin 13, Anton 13, Keith 11, Ryan 11, Ethan 11, Siraaj 9, Farai 8, Greg 7, Greig 7, Dale 6, Ferdi 6, Ashton 4, Peter 4, Ryan J 4, Nxamalala 4, Dash 4, Liam 4, Mark 4, Tim 4, Terry 3, Robin 3, Gareth 3, Rich 3, Brent 3, Timmy 3, Shak 2, Tash 2, Yusri 2, Dylan 2, Chad 1, Adam 1, Dawie 1, Jeremy 1, Graham 1, Jacques 1.
+*Full 2026 try scorers (4+ only shown above; full set on request):* Mat W 21, Lutho 20, John 19, Shaka 17, Lario 17, Gevihne 16, Ryan 13, Justin 13, Anton 13, Keith 11, Ethan 11, Siraaj 11, Farai 9, Greg 7, Greig 7, Dale 6, Ferdi 6, Tim 6, Ashton 4, Peter 4, Ryan J 4, Nxamalala 4, Dash 4, Liam 4, Mark 4, Terry 3, Robin 3, Gareth 3, Rich 3, Brent 3, Shak 3, Timmy 3, Matt W 3, Tash 2, Yusri 2, Dylan 2, Chad 1, Adam 1, Dawie 1, Jeremy 1, Graham 1, Jacques 1, Ash 1.
 
 ## 5 Game Minimum — 2026
 
@@ -72,12 +72,12 @@ permalink: /tries
 | --- | --- | --- | --- |
 | Mat W | 5 | 21 | 420% |
 | Anton | 5 | 13 | 260% |
-| Lutho | 7 | 18 | 257% |
-| Keith | 5 | 11 | 220% |
-| Shaka | 8 | 16 | 200% |
-| Lario | 8 | 15 | 188% |
-| Farai | 5 | 8 | 160% |
-| Greig | 5 | 7 | 140% |
-| Ryan | 10 | 11 | 110% |
-| Ashton | 5 | 4 | 80% |
-| Shak | 5 | 2 | 40% |
+| Lutho | 8 | 20 | 250% |
+| Lario | 9 | 17 | 189% |
+| Shaka | 9 | 17 | 189% |
+| Keith | 6 | 11 | 183% |
+| Farai | 6 | 9 | 150% |
+| Ryan | 11 | 13 | 118% |
+| Greig | 6 | 7 | 117% |
+| Ashton | 6 | 4 | 67% |
+| Shak | 6 | 3 | 50% |
